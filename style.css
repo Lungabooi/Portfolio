@@ -1,0 +1,7 @@
+.d-flex {
+    display: flex!important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
