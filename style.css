@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Oswald:wght@300&display=swap');
+
 .d-flex {
     display: flex!important;
     flex-direction: column;
@@ -9,11 +11,13 @@
 body{
     overflow: hidden;
     overflow-y: scroll;
-    font-family: 'Oswald', sans-serif;
+    
 }
 
 p{
     font-size: 23px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 section{
     display: flex;
@@ -29,11 +33,20 @@ section{
 #home{
     background-image: url(./images/london-3833039_1920.jpg);
     background-image: linear-gradient(rgb(0 0 0 0.5) rgb(0 0 0 0.5));
+    
+    background-attachment: fixed;
 }
+
 .card-body{
     font-size: 20px;
     background-color: aquamarine;
     margin-top: 20px;
+}
+#container{
+    background: rgba(255,255,255,0);
+-webkit-backdrop-filter: blur(21px);
+backdrop-filter: blur(21px);
+border: 1px solid rgba(255,255,255,0);
 }
 #skills{
     background-image: url(./images/space-4641363_1920.jpg);
