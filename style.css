@@ -39,7 +39,8 @@ section{
 
 .card-body{
     font-size: 20px;
-    background-color: aquamarine;
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
     margin-top: 20px;
 }
 #container{
@@ -48,6 +49,7 @@ section{
 backdrop-filter: blur(21px);
 border: 1px solid rgba(255,255,255,0);
 }
+
 #skills{
     background-image: url(./images/space-4641363_1920.jpg);
     background-position: center;
@@ -335,6 +337,11 @@ border: 1px solid rgba(255,255,255,0);
     }
 }
 
+@media all and (max-width:500px) {
+  .testi-card{
+      width: 97%;
+  }  
+}
 
 
 
